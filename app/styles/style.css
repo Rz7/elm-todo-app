@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto Regular', sans-serif;
+}
+
+html, body, .all {
+    height: 100%;
+    background-color: #F3E5F5;
+}
+
+.content {
+    min-height: 100%;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+
+h3 {
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+header {
+    background-color: #7B1FA2;
+    height: 50px;
+    width: 100%;
+    padding: 15px 30px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    background-color: #592DA2;
+    width: 100%;
+    padding: 15px;
+    height: 60px;
+}
+
+section {
+    clear: both;
+}
+
+.primary {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-color: #9C27B0;
+}
+
+.primary__fixed_button {
+    position: absolute;
+    bottom: -26px;
+    right: 10%;
+}
+
+.form-margin {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.collection-item {
+    padding: 20px 30px ! important;
+    color: #212121 ! important;
+    background-color: #FFFFFF ! important;
+}
+
+.collection-item:hover {
+    background-color: #E1E1E1 ! important;
+}
+
+.new {
+    background-color: #757575 ! important;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.testdivblock {
+    background-color: black;
+}
